@@ -1,0 +1,61 @@
+<div class="container">
+
+    <div class="row">
+
+        <h5><strong><i>NEOCASSIO</i></strong></h5>
+        
+        <div class="col">
+            <input type="text" class="form-control" disabled [ngModel]="value">
+        </div>
+
+        <hr>
+
+        <div class="row adjustSize">
+            <div class="col">
+                <button class="btn btn-dark btn-raiz-quadrada adjust-top" [disabled]="isOff" (click)="onSquareClicked()"><i class="bi bi-alt"></i></button>
+                <button class="btn btn-dark btn-porcentagem adjust-top" [disabled]="isOff" (click)="onPercentageClicked()"><i class="bi bi-percent"></i></button>
+                <button class="btn btn-dark btn-on adjust-top" (click)="turnOnClicked()"><i class="bi bi-brightness-alt-high"></i></button>
+                <button class="btn btn-dark btn-off adjust-top"  (click)="turnOffClicked()"><i class="bi bi-moon"></i></button>
+            </div>
+        </div>
+
+        <div class="row adjustSize">
+            <div class="col">
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="oneClicked()">1</button>
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="twoClicked()">2</button>
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="threeClicked()">3</button>
+                <button class="btn btn-dark btn-div" [disabled]="isOff" (click)="onDivClicked()">/</button>
+            </div>
+        </div>
+
+        <div class="row adjustSize">
+            <div class="col">
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="fourClicked()">4</button>
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="fiveClicked()">5</button>
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="sixClicked()">6</button>
+                <button class="btn btn-dark btn-multi" [disabled]="isOff" (click)="onMultClicked()">*</button>
+            </div>
+        </div>
+
+        <div class="row adjustSize">
+            <div class="col">
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="sevenClicked()">7</button>
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="eightClicked()">8</button>
+                <button class="btn btn-dark btn-number" [disabled]="isOff" (click)="nineClicked()">9</button>
+                <button class="btn btn-dark btn-sub" [disabled]="isOff" (click)="onSubClicked()">-</button>
+            </div>
+        </div>
+
+        <div class="row adjustSize">
+            <div class="col">
+                <button class="btn btn-dark btn-number adjust-bottom" [disabled]="isOff" (click)="zeroClicked()">0</button>
+                <button class="btn btn-dark btn-virgula adjust-bottom" [disabled]="isOff" (click)="onClearClicked()">X</button>
+                <button class="btn btn-dark col btn-resultado adjust-bottom" [disabled]="isOff" (click)="onResultClicked()">=</button>
+                <button class="btn btn-dark btn-adi adjust-bottom" [disabled]="isOff" (click)="onAddClicked()">+</button>
+            </div>
+        </div>
+
+        <hr>
+    </div>
+
+</div>

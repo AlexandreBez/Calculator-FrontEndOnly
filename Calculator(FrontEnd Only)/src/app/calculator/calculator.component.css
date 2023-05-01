@@ -1,0 +1,81 @@
+.container{
+    background-color: rgba(0, 0, 0, 0.767);
+    width: 30%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+h5{
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+input{
+    border-radius: 20px;
+    text-align: right;
+}
+
+/* buttons */
+.btn-raiz-quadrada{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-porcentagem{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-on{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-off{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-number{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-div{
+    width: 60px;
+    height: 65px;    
+}
+
+.btn-multi{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-sub{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-adi{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-virgula{
+    width: 60px;
+    height: 65px;
+}
+
+.btn-resultado{
+    width: 60px;
+    height: 65px;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.adjustSize{
+    margin-left: 2%;
+}
